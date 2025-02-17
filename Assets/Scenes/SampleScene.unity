@@ -222,6 +222,7 @@ GameObject:
   - component: {fileID: 1483244833}
   - component: {fileID: 1483244832}
   - component: {fileID: 1483244831}
+  - component: {fileID: 1483244834}
   m_Layer: 0
   m_Name: starShip_0
   m_TagString: Untagged
@@ -241,8 +242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6b73b0cededc38449f567312ff3cf5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  theRenderer: {fileID: 1483244832}
-  spriteColor: {r: 0, g: 0, b: 0, a: 0}
+  spriteColor: {r: 0.13069598, g: 0.23468564, b: 0.8396226, a: 0}
 --- !u!212 &1483244832
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -288,7 +288,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -910207976613999885, guid: 4720392d022f6b249aa330e24f07fb33, type: 3}
-  m_Color: {r: 0.17030083, g: 0.5145221, b: 0.8396226, a: 1}
+  m_Color: {r: 0.16862746, g: 0.43313104, b: 0.8392157, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -313,6 +313,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1483244834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483244830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77548ca9231e1954dada4bb7efe26ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

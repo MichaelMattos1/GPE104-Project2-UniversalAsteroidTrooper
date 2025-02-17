@@ -27,7 +27,7 @@ public class SpriteMover : MonoBehaviour
        //check if button is being pressed
        if (Input.GetButtonDown("quit"))
         {
-            Debug.Log("Pressing and holding quit key");
+            Application.Quit();
         }
     }
 }
