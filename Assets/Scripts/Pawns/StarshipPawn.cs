@@ -26,10 +26,10 @@ public class StarshipPawn : Pawn
     }
     public override void RotateClockwise()
     {
-        transform.Rotate(0, 0, RotationSpeed * Time.deltaTime);
+        transform.Rotate(0, 0, -RotationSpeed * Time.deltaTime);
     }
     public override void RotateCounterclockwise()
     {
-        transform.Rotate(0, 0, -RotationSpeed * Time.deltaTime);
+        transform.Rotate(0, 0, RotationSpeed * Time.deltaTime);
     }
 }
